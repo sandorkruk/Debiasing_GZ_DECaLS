@@ -3,9 +3,9 @@
 # parameters used throughout the debiasing notebook.
 
 # data definitions
-outdir = os.path.abspath('/Users/skruk/Documents/Work_in_progress/Debiasing_GZ_DeCALS/Debiasting_GZ_DeCALS_after_referee/gamakidsgz/outputs/debiasing/data')
-input_votefrac_cat = f'{outdir}/current_final_dr2_result_extra.fits'
-input_extraval_cat = f'{outdir}/current_final_dr2_result_extra.fits'
+outdir = os.path.abspath('/Users/skruk/Documents/Work_in_progress/Debiasing_GZ_DeCALS/Debiasting_GZ_DeCALS_after_referee/gamakidsgz/outputs/DeCALS_debiasing/Debiasing_GZ_DECaLS/data/DR2')
+input_votefrac_cat = '/Users/skruk/Documents/Work_in_progress/Debiasing_GZ_DeCALS/Debiasting_GZ_DeCALS_after_referee/gamakidsgz/outputs/DeCALS_DR2DR5_data/current_final_dr2_result_extra_n30.fits'
+input_extraval_cat = '/Users/skruk/Documents/Work_in_progress/Debiasing_GZ_DeCALS/Debiasting_GZ_DeCALS_after_referee/gamakidsgz/outputs/DeCALS_DR2DR5_data/current_final_dr2_result_extra_n30.fits'
 output_cat = f'{outdir}/current_final_dr2_result_debiased.fits.gz'
 
 # column suffix info
